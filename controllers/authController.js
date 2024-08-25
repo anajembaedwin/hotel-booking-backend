@@ -57,3 +57,38 @@ exports.adminOnly = (req, res, next) => {
     }
     next();
 };
+
+exports.getUserProfile = async (req, res) => {
+    try {
+        const user = await User.findById(req.user.id);
+        if (!user) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+        res.json(user);
+    } catch (error) {
+        res.status(500).json({ error: 'Server error', details: error.message });
+    }
+};
+
+// Update logged-in user's profile
+exports.updateUserProfile = async (req, res) => {
+    const { username, email, password, role } = req.body;
+    try {
+        const user = await User.findById(req.user.id);
+        if (!user) {
+            return res.status(404).json({ error: 'User not found' });
+        }
+        
+        // Update user fields
+        if (username) user.username = username;
+        if (email) user.email = email;
+        if (password) user.password = password;
+        if (role) user.role = role;
+
+        await user.save();
+        res.json({ message: 'User profile updated successfully', user });
+    } catch (error) {
+        res.status(400).json({ error: 'Error updating user profile', details: error.message });
+    }
+};
+

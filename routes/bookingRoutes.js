@@ -1,16 +1,22 @@
-// routes/bookingRoutes.js
 const express = require('express');
+const { createBooking, getAllBookings, getBookingById, updateBooking, deleteBooking } = require('../controllers/bookingController');
+const { protect } = require('../middleware/authMiddleware');
+
 const router = express.Router();
-const { authMiddleware } = require('../middleware/authMiddleware');
-const { getBookings, getBookingById, createBooking, updateBooking, deleteBooking } = require('../controllers/bookingController');
 
-router.route('/')
-  .get(authMiddleware, getBookings)
-  .post(authMiddleware, createBooking);
+// Create a new booking
+router.post('/', protect, createBooking);
 
-router.route('/:id')
-  .get(authMiddleware, getBookingById)
-  .put(authMiddleware, updateBooking)
-  .delete(authMiddleware, deleteBooking);
+// Get all bookings
+router.get('/', protect, getAllBookings);
+
+// Get a booking by ID
+router.get('/:id', protect, getBookingById);
+
+// Update a booking
+router.put('/:id', protect, updateBooking);
+
+// Delete a booking
+router.delete('/:id', protect, deleteBooking);
 
 module.exports = router;

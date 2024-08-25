@@ -1,6 +1,6 @@
 const cors = require('cors');
 
-const allowedOrigins = ['http://yourfrontend.com', 'http://anotherdomain.com']; // Add your allowed origins here
+const allowedOrigins = ['https://hotel-booking-dashboard-gold.vercel.app/', 'http://anotherdomain.com']; // Add your allowed origins here
 
 const corsOptions = {
     origin: (origin, callback) => {

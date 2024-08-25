@@ -1,29 +1,18 @@
-const express = require('express');
-const connectDB = require('./config/db');
+const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const app = require('./app');
+const logger = require('./utils/logger');
 
 // Load environment variables
-dotenv.config();
+dotenv.config({ path: './config/env.js' }); // Ensure this path is correct
 
-// Connect Database
-connectDB();
+// Connect to MongoDB
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => logger.info('MongoDB connected'))
+    .catch((err) => logger.error('MongoDB connection failed', err));
 
-const app = express();
-
-
-
-// Init Middleware
-app.use(express.json());
-app.use(require('cors')());
-app.use(helmet());
-app.use(morgan('dev'));
-
-// Define Routes
-app.use('/api/auth', require('./routes/authRoutes'));
-app.use('/api/users', require('./routes/userRoutes'));
-app.use('/api/bookings', require('./routes/bookingRoutes'));
-app.use('/api/customers', require('./routes/customerRoutes'));
-app.use('/api/payments', require('./routes/paymentRoutes'));
-
+// Start the server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+app.listen(PORT, () => {
+    logger.info(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
+});

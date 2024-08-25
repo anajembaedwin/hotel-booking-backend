@@ -1,0 +1,167 @@
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T15:52:50.613Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T15:52:51.448Z"}
+{"level":"error","message":"MongoDB connection failed connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{},"hosts":[],"lastUpdateTime":44156247,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxWireVersion":0,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-08-24T15:53:21.461Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T15:55:13.083Z"}
+{"level":"error","message":"MongoDB connection failed connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{},"hosts":[],"lastUpdateTime":44297904,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxWireVersion":0,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:848:11)","timestamp":"2024-08-24T15:55:43.086Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T15:58:01.931Z"}
+{"level":"error","message":"MongoDB connection failed connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{},"hosts":[],"lastUpdateTime":44466623,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxWireVersion":0,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:848:11)\n    at runNextTicks (node:internal/process/task_queues:60:5)\n    at listOnTimeout (node:internal/timers:540:9)\n    at process.processTimers (node:internal/timers:514:7)","timestamp":"2024-08-24T15:58:31.935Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:05:40.567Z"}
+{"level":"error","message":"MongoDB connection failed connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","reason":{"commonWireVersion":0,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{"localhost:27017":{"$clusterTime":null,"address":"localhost:27017","arbiters":[],"electionId":null,"error":{},"hosts":[],"lastUpdateTime":44925142,"lastWriteDate":0,"logicalSessionTimeoutMinutes":null,"maxWireVersion":0,"me":null,"minRoundTripTime":0,"minWireVersion":0,"passives":[],"primary":null,"roundTripTime":-1,"setName":null,"setVersion":null,"tags":{},"topologyVersion":null,"type":"Unknown"}},"setName":null,"stale":false,"type":"Unknown"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017\n    at _handleConnectionErrors (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:897:11)\n    at NativeConnection.openUri (C:\\Users\\netze\\Documents\\Projects\\hotel-booking-backend\\node_modules\\mongoose\\lib\\connection.js:848:11)","timestamp":"2024-08-24T16:06:10.568Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:41:50.406Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:41:50.436Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:46:21.845Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:46:21.873Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:47:28.625Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:47:28.650Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:47:33.844Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:47:33.861Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:17.110Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:17.158Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:25.899Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:25.915Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:28.527Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:28.550Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:30.385Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:30.407Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:31.428Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:31.446Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:34.870Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:34.890Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:49:36.173Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:49:36.187Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:52:30.230Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:52:30.251Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:53:53.639Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:53:53.657Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:53:57.923Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:53:57.940Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:54:00.744Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:54:00.766Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:54:05.956Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:54:05.981Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:54:09.979Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:54:09.998Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:54:13.923Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:54:13.944Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:54:19.604Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:54:19.618Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:54:59.985Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:55:00.004Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:55:30.306Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:55:30.320Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:57:03.198Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:57:03.218Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:57:57.560Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:57:57.601Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:58:07.471Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:58:07.489Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:58:14.930Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:58:14.950Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T16:58:25.974Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T16:58:25.992Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T17:00:21.321Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T17:00:21.337Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T17:21:07.329Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T17:21:07.346Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:16:43.192Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:16:43.210Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:30:30.474Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:30:30.495Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:30:31.983Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:30:32.010Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:30:35.357Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:30:35.374Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:31:11.708Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:31:11.730Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:31:13.125Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:31:13.143Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:32:38.146Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:32:38.166Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:32:49.793Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:32:49.808Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:33:42.629Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:33:42.654Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:44:52.409Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:44:52.490Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:17.396Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:17.415Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:25.711Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:25.728Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:28.190Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:28.214Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:30.252Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:30.273Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:32.864Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:32.894Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:42.380Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:42.416Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:45.425Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:45.454Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:54.733Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:54.766Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:57.115Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:48:57.134Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:48:59.989Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:49:00.011Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:49:02.467Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:49:02.487Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:49:35.516Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:49:35.535Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:49:40.507Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:49:40.529Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:50:08.529Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:50:08.552Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:50:18.818Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:50:18.837Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:50:25.639Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:50:25.662Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:50:30.749Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:50:30.763Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:51:38.001Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:51:38.027Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:52:23.162Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:52:23.178Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:52:26.505Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:52:26.520Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:53:07.619Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:53:07.643Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:53:11.851Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:53:11.869Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:56:56.949Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:56:56.969Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:58:23.124Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:58:23.143Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:58:26.807Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:58:26.823Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:58:28.417Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:58:28.440Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T18:58:57.404Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T18:58:57.419Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:01:49.031Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:01:49.051Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:01:52.027Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:01:52.042Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:02:58.287Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:02:58.310Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:02:59.791Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:02:59.808Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:03:54.107Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:03:54.125Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:03:58.056Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:03:58.080Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:05:09.727Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:05:09.751Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:05:13.185Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:05:13.262Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:05:44.825Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:05:44.853Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:10:45.982Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:10:46.026Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:10:51.698Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:10:51.739Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:10:54.358Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:10:54.394Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:13:01.665Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:13:01.709Z"}
+{"level":"info","message":"Server running in development mode on port 5000","timestamp":"2024-08-24T19:13:04.655Z"}
+{"level":"info","message":"MongoDB connected","timestamp":"2024-08-24T19:13:04.703Z"}

@@ -1,7 +1,7 @@
 const Customer = require('../models/Customer');
 
 // Add a new customer
-exports.addCustomer = async (req, res) => {
+exports.createCustomer = async (req, res) => {
     try {
         const customer = new Customer(req.body);
         await customer.save();
